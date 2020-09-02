@@ -1,0 +1,131 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+}
+
+header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  display: block;
+  float: left;
+  padding: 20px 40px;
+}
+
+.header-logo h1 {
+    font-size: 36px;
+}
+
+.header-list li {
+  float: left;
+  margin: 36px 20px;
+}
+
+section {
+  margin: 100px 80px 0 80px;
+}
+
+section h1 {
+  font-size: 140px;
+}
+
+section h1 span {
+  color: #ff4a4a;
+}
+
+section h2 {
+  font-size: 60px;
+}
+
+.lessons {
+  margin-bottom: 100px;
+  display: block;
+  height: 500px;
+}
+
+.lessons h3 {
+  margin: 100px 0 50px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+}
+
+.courses {
+  margin-right: 40px;
+  float: left;
+}
+
+.courses p {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.form {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.form h3 {
+  font-size: 28px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #dee7ec;
+  margin-bottom: 50px;
+}
+
+.form-details {
+  width: 400px;
+}
+
+.form input, .form textarea {
+  width: 100%;
+  padding: 20px;
+  margin: 10px 0 30px;
+  border: 1px solid #dee7ec;
+  font-size: 18px;
+}
+
+.submit {
+  color: #889eab;
+  background-color: #dee7ec;
+}
+
+footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 200px;
+}
+
+.footer-contents {
+  padding: 40px;
+}
+
+.footer-contents h1 {
+  font-size: 32px;
+  float: left;
+}
+
+.footer-contents ul {
+  float: right;
+}
+
+.footer-contents ul li{
+  padding-bottom: 20px;
+}
